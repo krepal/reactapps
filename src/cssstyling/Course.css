@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Georgia', cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .courses {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .course {
+    list-style: none;
+    border: 3px solid #bf0707;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 25px;
+    cursor: pointer;
+    text-align: left;
+  }
+  .course-info{
+    font-weight: 500;
+  }  
+
+
+h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: black;
+  }
+  .introLink{
+    color:black;
+  }
+  .introLink:hover{
+    color:inherit;
+    border-bottom: 5px solid #bf0707;
+    transition: all 0.1s ease-in;
+  }
+
+  .intermediateLink{
+    color:black;
+  }
+  .intermediateLink:hover{
+    color:inherit;
+    border-bottom: 5px solid #bf0707;
+    transition: all 0.1s ease-in;
+  }
+
+  .advancedLink{
+    color:black;
+  }
+  .advancedLink:hover{
+    color:inherit;
+    border-bottom: 5px solid #bf0707;
+    transition: all 0.1s ease-in;
+  }
+
+  .symbols{
+    color: #bf0707;
+  }
+
