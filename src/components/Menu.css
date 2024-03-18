@@ -1,0 +1,9 @@
+.menu-container{
+    padding-bottom: 50%;
+    display: flex; /* Use flexbox to place items in a row */
+    justify-content: space-around; /* Distribute space between items */
+    align-items: center; /* Center items vertically */
+}
+.menu-button{
+    transform: translateX(100%);
+}
