@@ -1,0 +1,19 @@
+.course_ir_card_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.vertical-line {
+    width: 2px;
+    height: 345px; /* adjust height as needed */
+    background-color: #220000;
+    margin-right: 2rem;
+}
+
+.lower_hr{
+    width: 1500;
+    border-top: 2.5px solid rgb(43, 2, 2);
+    color: black;
+}

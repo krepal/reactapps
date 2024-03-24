@@ -1,0 +1,9 @@
+.gradient-text {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: Makes the gradient more noticeable */
+    background: linear-gradient(45deg, blue, red); /* Define your gradient here */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Makes the text color transparent to show the background */
+    display: inline-block; /* Needed to apply gradient on inline elements like span or p */
+  }

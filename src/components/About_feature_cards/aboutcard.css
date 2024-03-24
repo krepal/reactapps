@@ -1,0 +1,30 @@
+.aboutcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8rem 8rem 3rem 8rem;
+    
+}
+
+
+.aboutcard_title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    margin-right: 5rem;
+    color: rgba(97, 16, 7, 0.902);
+}
+
+
+.aboutcard_text {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+    margin-left: 4rem;
+    align-items: center;
+}
+
+.about_horizontal-line{
+    margin-top: 0;
+    width: 1500;
+    border-top: 2.5px solid rgb(43, 2, 2);
+}
